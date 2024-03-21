@@ -1,0 +1,21 @@
+.menu {
+  margin: 20px 0;
+  list-style: none;
+}
+
+.menu__item {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+  width: 100px;
+  background-color: lightblue;
+}
+
+.com-submenu:hover .submenu {
+  display: block;
+}
